@@ -1,0 +1,32 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Python y caché
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets descargados por torchvision (MNIST, etc.)
+data/
+datasets/
+
+# Checkpoints y pesos de modelos
+*.pt
+*.pth
+*.onnx
+checkpoints/
+
+# Metadatos del sistema y transferencias Windows/WSL
+*:Zone.Identifier
+*Zone.Identifier*
+.DS_Store
+Thumbs.db

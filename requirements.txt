@@ -1,0 +1,9 @@
+# Dependencias para el notebook de ViT 
+torch
+torchvision
+numpy
+pandas
+matplotlib
+einops
+ipykernel
+tqdm
